@@ -23,6 +23,7 @@ class Varuable
 		Console.WriteLine('A'); //[3] A: 문자 리터럴/ 작은 따옴표 안에는 문자 하나만 가능
 		Console.WriteLine("Hello"); //[4] Hello: 문자열리터럴
 
+		// +접미사 F,f,D,d,M,m
 
 		// 3. Constant(상수) : 변하지 않는 변수, read only variable
 		const int MAX = 100; // 정수 형식의 상수 선언과 동시에 초기화
