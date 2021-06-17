@@ -101,7 +101,7 @@ class ReadLine
 
 		//12. BinaryString
 			byte h = 10;
-			// x를 2진수로 표현하되, 8자리로 하고 앞부분은 모두 _으로 채운다
+			// x를 2진수로 표현하되, 8자리로 하고 앞부분은 모두 _으로 채운다 PadLeft(총길이, '패딩문자')
 			Console.WriteLine($"십진수: {h} -> 이진수: {Convert.ToString(h, 2).PadLeft(8, '_')}"); //____1010
 
 
