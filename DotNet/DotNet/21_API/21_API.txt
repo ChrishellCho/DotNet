@@ -1,1 +1,15 @@
 .NET API Browser: https://docs.microsoft.com/en-us/dotnet/api/
+
+// [1] System.Math Class
+// Static Member (정적 멤버) : . 찍었을 때 바로 호출해 주는 멤버
+
+Math.PI // 3.14159265...
+Math.Max(5,3) // 5
+
+
+
+// [2] System.Random Class
+// Instance Member : new 라는 키워드를 이용해 새로운 개체(인스턴스)을 만들어 놓는,,
+
+Random random = new Random();
+random.Next(1, 10); // 1 ~ 9 
