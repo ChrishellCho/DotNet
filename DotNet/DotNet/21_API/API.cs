@@ -4,18 +4,18 @@ class API
 {
 	static void Main()
 	{
-    // 1. Math
+    // 1. System.Math Class
     //[1] 수학 관련 상수
-    WriteLine($"자연 로그: {Math.E}");
-    WriteLine($"원주율(PI): {Math.PI}");
+    Console.WriteLine($"자연 로그: {Math.E}");
+    Console.WriteLine($"원주율(PI): {Math.PI}");
 
     //[2] 절댓값
-    WriteLine($"-10의 절댓값: {Math.Abs(-10)}");
-    WriteLine(Math.Abs(-10));// // 절댓값 |-10| -> 10
+    Console.WriteLine($"-10의 절댓값: {Math.Abs(-10)}");
+    Console.WriteLine(Math.Abs(-10));// // 절댓값 |-10| -> 10
 
     //[3] 최댓값, 최솟값
-    WriteLine(Math.Max(3, 5)); // 5
-    WriteLine(Math.Min(3, 5)); // 3
+    Console.WriteLine(Math.Max(3, 5)); // 5
+    Console.WriteLine(Math.Min(3, 5)); // 3
 
     //[4] 거듭제곱
     Console.WriteLine($"거듭제곱: 2의 10승: {Math.Pow(2, 10)}");
