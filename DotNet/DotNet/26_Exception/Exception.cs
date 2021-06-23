@@ -1,4 +1,6 @@
-﻿using System;
+﻿//  예외 처리(Exception Handling): try-catch-finally와 throw를 사용해 에외 처리하기
+
+using System;
 
 class TryCatch
 {
@@ -70,5 +72,15 @@ class TryCatchDemi
 		{
 			Console.WriteLine("[2] 짝수 초에서는 런타임 에러 발생");
 		}
+	}
+}
+
+
+class TrowNote
+{
+	static void Main()
+	{
+		throw new Exception();
+		throw new ArgumentException();
 	}
 }
