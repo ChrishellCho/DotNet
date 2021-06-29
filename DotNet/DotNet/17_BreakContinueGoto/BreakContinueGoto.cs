@@ -95,6 +95,8 @@ namespace DotNet._17_BreakContinueGoto
 
 		static void GotoDemo()
 		{
+			// goto문 : 지정한 레이블(책갈피)로 이동하는 구문 but 잘 쓰지 않음
+
 			Console.WriteLine("시작");
 			Start:
 				Console.WriteLine("0,1,2 중 하나 입력 : _\b");
