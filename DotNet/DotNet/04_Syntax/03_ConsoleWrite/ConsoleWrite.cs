@@ -1,6 +1,6 @@
 ﻿using System;
 
-	class ConsoleWrite
+	class ConsoleWriteDemo
 	{
 		static void Main()
 		{
